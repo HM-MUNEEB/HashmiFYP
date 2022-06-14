@@ -1,0 +1,80 @@
+.DashBoardContainer {
+  height: 100vh;
+}
+.navbar {
+  padding: 10px;
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.sperator {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 2px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.navItem {
+}
+.logoContainer {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+}
+.crudItems {
+}
+.crudList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.crudListItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.crudListItem:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+.iconItem {
+  margin: 10px;
+}
+.navIcon {
+}
+.contentContainer {
+  margin-left: 15%;
+}
+.dashBoardHeader {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.screenInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dbIcon {
+  margin-right: 10px;
+}
+.logoutContainer {
+  height: 45px;
+  width: 45px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
